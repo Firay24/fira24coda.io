@@ -1,0 +1,60 @@
+@font-face{
+    font-family: "Dual";
+    src: url(Dual-300.otf);
+}
+
+body{
+    font-family: "Dual";
+    text-align: center;
+    margin-top: 50px;
+}
+
+input[type='text']{
+    background-image: url(person.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: 10%;
+    outline: none;
+    width: 220px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid  rgb(23, 182, 182);
+    margin: 10px0;
+    margin-top: 20px;
+    margin-left: 560px;
+    font-family: "Dual";
+    padding-left: 45px;
+  }
+  
+input[type='password']{
+    background-image: url(pass.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: 10%;
+    outline: none;
+    width: 220px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(23, 182, 182);
+    margin: 10px0;
+    margin-left: 560px;
+    margin-top: 20px;
+    font-family: "Dual";
+    padding-left: 45px;
+}
+
+.kirim{
+    margin-top: 25px;
+    background-color: rgb(23, 182, 182);
+    padding: 15px;
+    outline: none;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+}
+
+.kirim:hover{
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
